@@ -1,1 +1,1 @@
-# sign_interpreter
+# Sign Language Translator Using ESP32 CAM
