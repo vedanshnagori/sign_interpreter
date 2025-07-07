@@ -30,11 +30,15 @@ A deep learning-based Sign Language Interpreter that recognizes hand gestures re
 
 ## Dataset
 
-- Dataset: American Sign Language (ASL) Alphabet Dataset
-- Total Classes: **26 (A–Z)**
-- Input Image Size: **64x64 grayscale**
-- Preprocessing: Normalization, Resizing, Data Augmentation
-- Tech Stack
+- Dataset: American Sign Language (ASL) Alphabet Dataset, containing labeled static images for each of the 26 English alphabets represented through hand gestures.
+- Total Classes: 26 (A–Z), one for each letter of the English alphabet.
+- Input Image Size: All images were resized to 64x64 pixels and converted to grayscale to simplify processing.
+- **Preprocessing**: 
+  - Normalization: Pixel values scaled between 0 and 1.
+  - Resizing: Standardized input dimensions for CNN.
+  - Data Augmentation: Techniques like flipping, rotation, and zoom to improve generalization.
+
+- **Tech Stack**
   - `Python`
   - `TensorFlow & Keras`
   - `OpenCV`
@@ -46,11 +50,14 @@ A deep learning-based Sign Language Interpreter that recognizes hand gestures re
 
 ## Model Architecture
 
-A custom CNN with the following:
-- 3 Convolutional layers + MaxPooling
-- Dropout layers to prevent overfitting
-- Dense layers with `softmax` activation
-- Final model exported as `.tflite` with quantization
+The model is a custom CNN designed specifically to recognize ASL alphabets from images.  
+
+- It starts with **three convolutional layers** that help the model learn important patterns and features from the hand signs.
+- **MaxPooling layers** follow each convolution to reduce the image size and focus on the most useful information.
+- **Dropout layers** are added to avoid overfitting, so the model performs well even on new, unseen images.
+- After that, **dense (fully connected) layers** help in making the final decision, ending with a **softmax activation** to classify the image into one of the 26 letters.
+- Once trained, the model is converted into a **`.tflite` format with quantization**, making it smaller and faster—perfect for running on mobile devices.
+
 
 📈 **Accuracy Achieved**: ~96%
 
