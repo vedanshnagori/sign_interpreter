@@ -3,7 +3,6 @@
 
 A deep learning-based Sign Language Interpreter that recognizes hand gestures representing the English alphabet (A–Z). This project combines **CNN**, **transfer learning**, and **TensorFlow Lite** for accurate and lightweight sign recognition — ready for real-time deployment.
 
-![Architecture](./Architecture.png)
 
 ---
 
@@ -61,7 +60,7 @@ The model is a custom CNN designed specifically to recognize ASL alphabets from 
 
 📈 **Accuracy Achieved**: ~96%
 
-> See `Architecture.png` for the full structure.
+![Architecture](./Architecture.png)
 
 ---
 
