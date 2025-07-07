@@ -71,10 +71,10 @@ The model was tested in real-time using an ESP32-CAM and was able to accurately 
 ### Prediction Examples
 
 - **Prediction: A**  
-  ![Prediction A](images/result_1.jpg)
+  ![Prediction A](result_1.jpg)
 
 - **Prediction: P**  
-  ![Prediction P](images/result_2.jpg)
+  ![Prediction P](result_2.jpg)
 
 
 ## Model Optimization (TFLite)
