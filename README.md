@@ -1,5 +1,5 @@
 
-# 🤟 Sign Language Interpreter using CNN & TensorFlow Lite
+# Sign Language Interpreter using CNN & TensorFlow Lite
 
 A deep learning-based Sign Language Interpreter that recognizes hand gestures representing the English alphabet (A–Z). This project combines **CNN**, **transfer learning**, and **TensorFlow Lite** for accurate and lightweight sign recognition — ready for real-time deployment.
 
@@ -7,7 +7,7 @@ A deep learning-based Sign Language Interpreter that recognizes hand gestures re
 
 ---
 
-## 📂 Project Overview
+## Project Overview
 
 | File/Folder                 | Description                                              |
 |----------------------------|----------------------------------------------------------|
@@ -19,7 +19,7 @@ A deep learning-based Sign Language Interpreter that recognizes hand gestures re
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Build a CNN model to recognize static ASL signs (A–Z)
 - Preprocess image data for training (resize, grayscale, normalization)
@@ -28,7 +28,7 @@ A deep learning-based Sign Language Interpreter that recognizes hand gestures re
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - `Python`
 - `TensorFlow & Keras`
@@ -39,7 +39,7 @@ A deep learning-based Sign Language Interpreter that recognizes hand gestures re
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - Dataset: American Sign Language (ASL) Alphabet Dataset
 - Total Classes: **26 (A–Z)**
@@ -48,7 +48,7 @@ A deep learning-based Sign Language Interpreter that recognizes hand gestures re
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 A custom CNN with the following:
 - 3 Convolutional layers + MaxPooling
@@ -62,7 +62,7 @@ A custom CNN with the following:
 
 ---
 
-## 📦 Model Optimization (TFLite)
+## Model Optimization (TFLite)
 
 Model converted for mobile deployment:
 ```python
