@@ -64,6 +64,18 @@ The model is a custom CNN designed specifically to recognize ASL alphabets from 
 ![Architecture](./Architecture.png)
 
 ---
+## Results
+
+The model was tested in real-time using an ESP32-CAM and was able to accurately recognize ASL signs from live input.
+
+### Prediction Examples
+
+- **Prediction: A**  
+  ![Prediction A](images/result_1.jpg)
+
+- **Prediction: P**  
+  ![Prediction P](images/result_2.jpg)
+
 
 ## Model Optimization (TFLite)
 
