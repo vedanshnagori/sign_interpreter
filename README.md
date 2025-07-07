@@ -1,7 +1,8 @@
 
 # ESP 32 based Sign Language Interpreter (Using CNN & TensorFlow Lite)
 
-A deep learning-based Sign Language Interpreter that recognizes hand gestures representing the English alphabet (A–Z). This project combines **CNN**, **transfer learning**, and **TensorFlow Lite** for accurate and lightweight sign recognition — ready for real-time deployment.
+### A Deep Learning-based Sign Language Interpreter using the ESP-32 CAM that recognizes hand gestures representing the English alphabet (A–Z). This project combines **CNN**, **transfer learning**, and **TensorFlow Lite** for accurate and lightweight sign recognition — ready for real-time deployment.
+
 
 
 ---
