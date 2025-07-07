@@ -21,21 +21,10 @@ A deep learning-based Sign Language Interpreter that recognizes hand gestures re
 
 ## Objectives
 
-- Build a CNN model to recognize static ASL signs (A–Z)
-- Preprocess image data for training (resize, grayscale, normalization)
-- Optimize model for mobile using TensorFlow Lite quantization
-- Prepare the model for deployment on real-time platforms
-
----
-
-## Tech Stack
-
-- `Python`
-- `TensorFlow & Keras`
-- `OpenCV`
-- `NumPy / Pandas`
-- `Matplotlib`
-- `TensorFlow Lite`
+- Gathered a labeled dataset of American Sign Language hand gestures representing the 26 English alphabets for model training and testing.
+- Resized all images to a fixed size for consistency, converted them to grayscale to reduce complexity, and normalized pixel values (0–1) to help the model train faster and more efficiently.
+- To make the model run faster and use less memory on mobile devices, it was converted to TensorFlow Lite format. Then, quantization was applied to shrink the model by using smaller, more efficient numbers—without losing much accuracy
+- Set up the optimized model to work smoothly in real-time environments, like mobile or embedded systems. Tested it with live inputs to ensure it could make quick and accurate predictions, ready for use in real-world applications.
 
 ---
 
@@ -45,6 +34,13 @@ A deep learning-based Sign Language Interpreter that recognizes hand gestures re
 - Total Classes: **26 (A–Z)**
 - Input Image Size: **64x64 grayscale**
 - Preprocessing: Normalization, Resizing, Data Augmentation
+- Tech Stack
+  - `Python`
+  - `TensorFlow & Keras`
+  - `OpenCV`
+  - `NumPy / Pandas`
+  - `Matplotlib`
+  - `TensorFlow Lite`
 
 ---
 
